@@ -1,0 +1,20 @@
+{
+  "id": "homepage",
+  "label": "HomePage",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "Title": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Title",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "heading1,strong,em"
+        }
+      }
+    },
+    "SEO": {}
+  }
+}
